@@ -23,6 +23,6 @@ export const Statistics = ({ data }) => {
         </li>
       </ul>
     </section>
-        </div>;
+        </div>
   );
 };
