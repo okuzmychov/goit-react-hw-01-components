@@ -2,7 +2,7 @@ export const Profile = ({ user: { username, tag, location, avatar, stats } }) =>
   return (
     <div className="profile">
       <div className="description">
-        <img src={avatar} alt={username} className="avatar" />
+        <img src={avatar} alt={username} className="avatar" width="300"/>
         <p className="name">{username}</p>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
