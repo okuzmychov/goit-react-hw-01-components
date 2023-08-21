@@ -4,6 +4,7 @@ export const List = styled.div`
 padding: 7px;
 border: 1px solid ${p => p.theme.colors.grey};
 background-color: ${p => p.theme.colors.white};
+align-items: center;
 border-radius: 10px;
 margin-bottom: 5px;
 display: flex;
