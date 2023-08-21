@@ -9,6 +9,10 @@ const theme = {
     grey: '#CCCAC9',
     darkGrey: '#6e6e6e',
     white: '#fff',
+    blue: '#0096FF',
+    violet: '#AD42CB',
+    magenta: '#FF00FF',
+    verbigris: '#40B5AD',
   },
 };
 

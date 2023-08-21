@@ -1,17 +1,18 @@
-import { StatCard } from './Statcard'
+import { StatCard } from './Statcard';
+import { Wrapper, List, ListItem, HeaderText } from './Statistics.styled';
 
 export const Statistics = ({ stats }) => {
   return (
-    <div>
-    <h3>Upload stats</h3>
-      <ul className="stat-list">
+    <Wrapper>
+    <HeaderText>Upload stats</HeaderText>
+      <List className="stat-list">
         {stats.map(stat => (
-        <li key={stat.id}>
+        <ListItem key={stat.id}>
           <StatCard quiz={stat} />
-        </li>
+        </ListItem>
       ))}
-      </ul>
-      </div>
+      </List>
+      </Wrapper>
   );
 };
 
