@@ -10,13 +10,17 @@ import friends from './FriendList/friends.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions.json';
 
+import { GlobalStyle } from './GlobalStyle';
+import { Layout } from './Layout';
+
 export const App = () => {
   return (
-    <div>
+    <Layout>
       <Profile user={userProfile} />
       <Statistics stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />;
-    </div>
+      <GlobalStyle />;
+    </Layout>
   );
 };
