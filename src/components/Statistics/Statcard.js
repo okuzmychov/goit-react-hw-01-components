@@ -1,4 +1,4 @@
-import { ListEl, } from './Statistics.styled';
+import { ListEl } from './Statistics.styled';
 
 export const StatCard = ({ quiz: { id, label, percentage } }) => {
   return (

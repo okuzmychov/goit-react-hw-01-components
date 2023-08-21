@@ -1,11 +1,11 @@
 import { styled } from 'styled-components';
 
 const getBgColor = props => {
-    switch (props.label) {
-        case '.docx': return props.theme.colors.blue;
-        case '.pdf': return props.theme.colors.violet;
-        case '.mp3': return props.theme.colors.magenta;
-        case '.psd': return props.theme.colors.verbigris;
+    switch (props.id) {
+        case 'id-1': return props.theme.colors.blue;
+        case 'id-2': return props.theme.colors.violet;
+        case 'id-3': return props.theme.colors.magenta;
+        case 'id-4': return props.theme.colors.verbigris;
         default: return null;
     }
 };
@@ -40,12 +40,10 @@ export const ListItem = styled.li`
     width: 70px;
     height: 70px;
     background-color: #40B5AD;
-        /* background-color: ${getBgColor}; */
-    /* border: 1px solid ${props => props.theme.colors.darkGrey}; */
+    /* background-color: ${getBgColor}; */
     border-radius: 8px;
     color: ${props => props.theme.colors.white};
-  `;
-
+`;
 
 export const ListEl = styled.li`
     display: flex;
