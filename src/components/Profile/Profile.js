@@ -16,22 +16,22 @@ export const Profile = ({
 
       <List className="stats">
         <ListItem>
-          <span className="label">
-            <b>Followers</b>
+          <span className="label">Followers</span>
+          <span className="quantity">
+            <b>{stats.followers}</b>
           </span>
-          <span className="quantity">{stats.followers}</span>
         </ListItem>
         <ListItem>
-          <span className="label">
-            <b>Views</b>
+          <span className="label">Views</span>
+          <span className="quantity">
+            <b>{stats.views}</b>
           </span>
-          <span className="quantity">{stats.views}</span>
         </ListItem>
         <ListItem>
-          <span className="label">
-            <b>Likes</b>
+          <span className="label">Likes</span>
+          <span className="quantity">
+            <b>{stats.likes}</b>
           </span>
-          <span className="quantity">{stats.likes}</span>
         </ListItem>
       </List>
     </div>
