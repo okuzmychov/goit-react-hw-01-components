@@ -1,4 +1,4 @@
-import { list } from './TransactionHistory.styled';
+// import { list } from './TransactionHistory.styled';
 
 export const TransactionHistoryItem = ({ strings: { id, type, amount, currency } }) => {
     return (
