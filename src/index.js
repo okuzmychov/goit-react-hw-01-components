@@ -13,6 +13,8 @@ const theme = {
     violet: '#AD42CB',
     magenta: '#FF00FF',
     verbigris: '#40B5AD',
+    red: '#FF0000',
+    green: '#12A608',
   },
 };
 
