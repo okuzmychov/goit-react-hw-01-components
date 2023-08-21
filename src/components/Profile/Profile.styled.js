@@ -1,8 +1,19 @@
 import { styled } from 'styled-components';
 
 export const Wrapper = styled.div`
+padding: 7px;
+background-color: ${p => p.theme.colors.darkGrey};
+border-radius: 10px;
+`;
+
+export const WrapperAvatar = styled.div`
   text-align: center;
   margin: auto;
+  margin-bottom: 7px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid ${props => props.theme.colors.grey};
+  background-color: ${props => props.theme.colors.grey};
 `;
 
 export const List = styled.ul`
@@ -10,7 +21,7 @@ export const List = styled.ul`
   text-align: center;
   justify-content: center;
   gap: 7px;
-  /* color: ${p => p.theme.colors.darkGrey}; */
+  
 `;
 
 export const ListItem = styled.li`
@@ -22,5 +33,5 @@ export const ListItem = styled.li`
   height: 80px;
   background-color: ${props => props.theme.colors.grey};
   border: 1px solid ${props => props.theme.colors.darkGrey};
-  border-radius: 4px;
+  border-radius: 8px;
 `;

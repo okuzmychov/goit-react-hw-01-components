@@ -1,18 +1,18 @@
-import { Wrapper, List, ListItem } from './Profile.styled';
+import { Wrapper, List, ListItem, WrapperAvatar } from './Profile.styled';
 
 export const Profile = ({
   user: { username, tag, location, avatar, stats },
 }) => {
   return (
-    <div className="profile">
-      <Wrapper className="description">
-        <img src={avatar} alt={username} className="avatar" width="300" />
+    <Wrapper className="profile">
+      <WrapperAvatar className="description">
+        <img src={avatar} alt={username} className="avatar" width="200" />
         <p className="name">
           <b>{username}</b>
         </p>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
-      </Wrapper>
+      </WrapperAvatar>
 
       <List className="stats">
         <ListItem>
@@ -34,6 +34,6 @@ export const Profile = ({
           </span>
         </ListItem>
       </List>
-    </div>
+    </Wrapper>
   );
 };
