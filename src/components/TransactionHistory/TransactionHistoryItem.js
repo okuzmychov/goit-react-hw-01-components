@@ -1,13 +1,13 @@
-import { ListEl } from './TransactionHistory.styled';
+import { ListEl, Text } from './TransactionHistory.styled';
 
 export const TransactionHistoryItem = ({
   strings: { id, type, amount, currency },
 }) => {
   return (
-    <tr key={id}>
+    <Text key={id}>
       <ListEl>{type}</ListEl>
       <ListEl>{amount}</ListEl>
       <ListEl>{currency}</ListEl>
-    </tr>
+    </Text>
   );
 };

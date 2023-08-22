@@ -1,15 +1,15 @@
 import { TransactionHistoryItem } from './TransactionHistoryItem';
-import { Table, List } from './TransactionHistory.styled';
+import { Table, List, Text } from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ items }) => {
   return (
     <Table>
       <thead>
-        <tr>
+        <Text>
           <List>Type</List>
           <List>Amount</List>
           <List>Currency</List>
-        </tr>
+        </Text>
       </thead>
 
       <tbody>
