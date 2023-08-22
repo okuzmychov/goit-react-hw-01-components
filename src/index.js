@@ -5,9 +5,9 @@ import { ThemeProvider } from 'styled-components';
 
 const theme = {
   colors: {
-    lightGrey: '#fafafa',
+    lightGrey: '#FAFAFA',
     grey: '#CCCAC9',
-    darkGrey: '#6e6e6e',
+    darkGrey: '#6E6E6E',
     white: '#fff',
     blue: '#0096FF',
     violet: '#AD42CB',

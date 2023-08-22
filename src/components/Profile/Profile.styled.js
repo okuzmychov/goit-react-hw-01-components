@@ -1,9 +1,9 @@
 import { styled } from 'styled-components';
 
 export const Wrapper = styled.div`
-padding: 7px;
-background-color: ${p => p.theme.colors.darkGrey};
-border-radius: 10px;
+  padding: 7px;
+  background-color: ${p => p.theme.colors.darkGrey};
+  border-radius: 10px;
 `;
 
 export const WrapperAvatar = styled.div`
@@ -21,7 +21,6 @@ export const List = styled.ul`
   text-align: center;
   justify-content: center;
   gap: 7px;
-  
 `;
 
 export const ListItem = styled.li`
