@@ -24,11 +24,11 @@ export const Wrapper = styled.div`
   border-radius: 10px;
 `;
 
-export const HeaderText = styled.h3`
-  text-transform: uppercase;
-  padding: 15px;
-  font-size: 27px;
-`;
+// export const HeaderText = styled.h3`
+//   text-transform: uppercase;
+//   padding: 15px;
+//   font-size: 27px;
+// `;
 
 export const List = styled.ul`
   display: flex;
@@ -42,8 +42,6 @@ export const ListItem = styled.li`
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  /* background-color: #40B5AD; */
-  /* background-color: ${getBgColor}; */
 
   color: ${props => props.theme.colors.white};
 `;
