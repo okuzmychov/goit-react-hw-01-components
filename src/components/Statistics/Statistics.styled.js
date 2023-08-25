@@ -19,12 +19,13 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7px;
+  padding: 10px;
+  gap: 15px;
   background-color: ${props => props.theme.colors.grey};
   border-radius: 10px;
 `;
 
-// export const HeaderText = styled.h3`
+// export const HeaderText = styled.h2`
 //   text-transform: uppercase;
 //   padding: 15px;
 //   font-size: 27px;
